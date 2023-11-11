@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>欢迎来到HR信息管理系统</h1>
   </div>
 </template>
 
@@ -11,8 +10,17 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
-  components: {
-    HelloWorld
+  components: HelloWorld,
+  data(){
+    return {
+
+    }
+  },
+  methods:{
+
+  },
+  mounted(){
+
   }
 }
 </script>
